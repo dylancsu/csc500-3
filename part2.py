@@ -1,6 +1,6 @@
 currenttime = int(input("Enter the current time in hours since midnight: "))
 
-if(currenttime>24 | currenttime<0):
+if(currenttime>24 or currenttime<0):
     print("invalid starting time")
 else:
     increase = int(input("Enter the number of hours to pass: "))
